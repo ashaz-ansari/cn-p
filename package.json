@@ -1,0 +1,25 @@
+{
+  "name": "cn-p",
+  "version": "1.0.0",
+  "description": "Download a Computer Network (CM31206) practical by its number",
+  "bin": {
+    "cn-p": "bin/cli.js"
+  },
+  "files": [
+    "bin/cli.js"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "cn",
+    "computer-network",
+    "practicals",
+    "cm31206"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashaz-ansari/cn-p.git"
+  }
+}

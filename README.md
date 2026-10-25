@@ -14,7 +14,26 @@ Replace `<N>` with the practical number, from `1` to `14`.
 
 ## Download one practical
 
-The practical number goes at the end of the link.
+The practical number goes at the end.
+
+**With npx — nothing to install first:**
+
+```
+npx --yes github:ashaz-ansari/cn-p 6
+```
+
+That downloads `CN-Practical-06.pdf` and `CN-Practical-06.docx` into the folder you are in. Options:
+
+```
+npx --yes github:ashaz-ansari/cn-p 6 --pdf       only the PDF
+npx --yes github:ashaz-ansari/cn-p 6 --docx      only the Word file
+npx --yes github:ashaz-ansari/cn-p 6 -o D:\cn    save into a folder
+npx --yes github:ashaz-ansari/cn-p --list        list all fourteen
+```
+
+Node.js 14 or newer is required.
+
+**Or with curl, straight from the raw link:**
 
 **Command Prompt, Git Bash, or PowerShell:**
 
